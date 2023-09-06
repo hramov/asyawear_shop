@@ -14,7 +14,7 @@ import (
 func TestPostgresConnection(t *testing.T) {
 	ctx := context.Background()
 
-	l := logger.New("SHARED", logger.Debug, false)
+	l := logger.New("SHARED", logger.Debug)
 
 	cfg := types.ConnectOptions{
 		Host:     "localhost",
