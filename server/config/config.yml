@@ -1,0 +1,15 @@
+app:
+  name: "Asyawear Shop"
+  port: 3000
+db:
+  postgres:
+    host: "localhost"
+    port: 5432
+    user: "postgres"
+    password: "postgres"
+    database: "asyawear"
+logger:
+  level: 0
+  trace: false
+metrics:
+  collect: false
